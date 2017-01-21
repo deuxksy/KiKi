@@ -1,0 +1,1 @@
+name_ksy = 'test'
