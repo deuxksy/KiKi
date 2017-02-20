@@ -45,4 +45,5 @@ docs/_build/
 
 /.idea
 /logs/
-/resources
+/resource/*.ini
+sh.exe.stackdump
