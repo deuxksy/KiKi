@@ -1,21 +1,16 @@
-from commons import arg
-from commons import config
+from settings import config
 from slacker import Slacker
 
-def get_slack_bot(conf=None):
-    if not conf:
-        conf = config.get_config(file_path=arg.get_args_config().config_path)
-    return Slacker(conf['slack']['token'])
+def get_slack_bot():
+    return Slacker(config['slack']['token'])
 
-def send_message(text, conf=None, bot=None, channel=None, username=None):
-    if not conf:
-        conf = config.get_config(file_path=arg.get_args_config().config_path)
+def send_message(text, bot=None, channel=None, username=None):
     if not bot:
-        bot = Slacker(conf['slack']['token'])
+        bot = Slacker(config['slack']['token'])
     if not username:
-        username = conf['slack']['username']
+        username = config['slack']['username']
     if not channel:
-        channel = conf['slack']['channel']
+        channel = config['slack']['channel']
     if bot:
         return bot.chat.post_message(channel=channel, text=text, username=username)
 

@@ -11,8 +11,10 @@ def get_proxies():
 
     http = json.loads(proxy_http[random.randint(0, len(proxy_http) - 1)].decode('utf-8'))
     https = json.loads(proxy_https[random.randint(0, len(proxy_https) - 1)].decode('utf-8'))
-
-    return {
-        'http':'http://{}:{}'.format(http.get('ip'), http.get('port')),
-        'https':'http://{}:{}'.format(https.get('ip'), https.get('port')),
-    }
+    if http and https:
+        return {
+            'http':'http://{}:{}'.format(http.get('ip'), http.get('port')),
+            'https':'http://{}:{}'.format(https.get('ip'), https.get('port')),
+        }
+    else:
+        return None
