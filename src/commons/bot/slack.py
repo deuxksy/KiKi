@@ -1,4 +1,4 @@
-from kiki import config
+from settings import config
 from slacker import Slacker
 
 def get_slack_bot():

@@ -1,4 +1,4 @@
-from kiki import redis_pool_common
+from settings import redis_pool_common
 import redis
 import random
 import json
