@@ -1,7 +1,10 @@
-__pycache__/
-*.py[cd]
 /.idea
+/build/
+/dist/
+/*.egg-info/
 /log/
 /resource/*.ini
-sh.exe.stackdump
+__pycache__/
+*.py[cd]
 *.log
+sh.exe.stackdump

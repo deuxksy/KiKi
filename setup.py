@@ -1,6 +1,6 @@
 from setuptools import setup
 from setuptools import find_packages
-from settings import __version__
+from src.settings import __version__
 
 try:
     license = open('LICENSE').read()
@@ -16,7 +16,7 @@ setup(
     name='kiki',
     version=".".join(str(x) for x in __version__),
     package_dir={'kiki': 'src'},
-    packages=['kiki', 'kiki.commons', 'kiki.sample', 'kiki.tests'],
+    packages=['kiki', 'kiki.commons'],
     description='ZZiZiLY Commons Project',
     long_description=readme,
     author='crom',
