@@ -1,4 +1,4 @@
-from settings import config
+from kiki import config
 import telepot
 
 def get_telegram_bot(conf=None):
