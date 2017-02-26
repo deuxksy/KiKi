@@ -1,6 +1,6 @@
 import telepot
 
-from kiki.settings import config
+from kiki.config import config
 
 
 def get_telegram_bot(token=None):
