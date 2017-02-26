@@ -18,13 +18,6 @@ def args():
 if __name__ == '__main__':
     param = args()
 
-    telegram_token = crypto.encrypt(b'322465013:AAHvlpEhHreme7hXiTCrNherXbvZdBQ0dKs')
-    telegram_chat_id = crypto.encrypt(b'35803321')
-    slack_token = crypto.encrypt(b'xoxp-11029445190-11029872343-130584637763-a4cea7cfaa5cb915480f56822208f2c2')
-    redis_host = crypto.encrypt(b'gaia.zzizily.com')
-    redis_port = crypto.encrypt(b'6379')
-    redis_password = crypto.encrypt(b'!1redis123')
-
     properties = [
         {'key': '[default]'},
         {'key': 'mode', 'value': param.mode},
