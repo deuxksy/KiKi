@@ -1,9 +1,9 @@
 config = {
     "db": {
-        "redis.db.common": 0,
-        "redis.host": "gAAAAABYs0pg-GW6oeMtdbYKaO0mWbl6zd-FIHU5QPyPeuE0e8HPLubpRvZjLcHrQlQjw6iY3BsHiRqL6IDYy4k5mrkm57rbog34QDrC8uGET3ruT-ob53M=",
-        "redis.password": "gAAAAABYs0pgh09OOHJTSuShNfiqQPbLxVq_f1PgOOTdeXsl8Fr-kTws27QaWp1KLgdq20lqBaEnL5ft1blRUVxljGCrHNPjOA==",
-        "redis.port": "gAAAAABYs0pgxpXx8w4zEMdLXBfASZRVXojnQLwULBHKsxmnbk9Sxn4uevqnde5gVm5whYMrSFwVlr_4NJADf1Gf4ohYGx05RA=="
+        "redis_db_common": 0,
+        "redis_host": "gAAAAABYs1HkubtByYkG8k3L3_tb8OWSbmAdEa-xe2dveLDYBGRppiT6SOyavkdv2Qx_J5wQZhh8ox3t0hkBT5gkN26j_BUAkDE5-xGtJSmxJ8O69arnrTk=",
+        "redis_password": "gAAAAABYs1Hkoao3RqDiNludl5eq0XJ_0OGPK6Tj_GnYMSx0Zrcm9vJ_PFZbUoSxwuZfZWDd9L2IcxvSW0jKYRRDQV3te2chlQ==",
+        "redis_port": "gAAAAABYs1HkNDBWA7OoOXzHo43DzfKwP10FWamsDCnKTZIz7ShdFNhCnUUJnQril6y3nitFqtPJMjYCX1CeO0Em8u3Okp5EaQ=="
     },
     "default": {
         "mode": "local"
@@ -17,11 +17,11 @@ config = {
     },
     "slack": {
         "chcnnel": "#carpediem",
-        "token": "gAAAAABYs0pgL9vAS7StOMuzGEMyOyZKUCIkaJVGbX6K0xOI454JmxZ9xXkCgShJsmAwtV4LXn2UXkFHUQc7SV9GyJUVBxqatIKUXhzT1Oszxux6LKZf8JTkQjBb_7cm37IxbNZ-WegY",
+        "token": "gAAAAABYs1HknuZcMdv9SyxAZWTKSAlpUUfpIkUgwLIfWpDD18J41ARvAL5tK0zxINfnC_FWgFizpqVJ4peJIElc2ynijqJJ3OeG1FozQgKEe7s13aoxvPF8jxMZlJmYrWVYHc-VB__O",
         "username": "carpediem"
     },
     "telegram": {
-        "chat_id": "gAAAAABYs0pgXXdF7kCQmtBvGLJN_EASt8UHWt1WerIM2PV5R1mriVp4bev_kUzpKQeBWtGUnuKU2GYSFMQD8mLzuK6xM8gRSQ==",
-        "token": "gAAAAABYs0pgL9vAS7StOMuzGEMyOyZKUCIkaJVGbX6K0xOI454JmxZ9xXkCgShJsmAwtV4LXn2UXkFHUQc7SV9GyJUVBxqatIKUXhzT1Oszxux6LKZf8JTkQjBb_7cm37IxbNZ-WegY"
+        "chat_id": "gAAAAABYs1HkcLn3inowHJhiQDQoFxJFheADrARvEJiNIpax3Fq8sszSgcUM8dOf4EvY45Pm_Y02VCD4kM96WGfZdcFaGwEM8g==",
+        "token": "gAAAAABYs1HknuZcMdv9SyxAZWTKSAlpUUfpIkUgwLIfWpDD18J41ARvAL5tK0zxINfnC_FWgFizpqVJ4peJIElc2ynijqJJ3OeG1FozQgKEe7s13aoxvPF8jxMZlJmYrWVYHc-VB__O"
     }
 }
