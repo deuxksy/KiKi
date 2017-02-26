@@ -1,27 +1,28 @@
 config = {
     "db": {
-        "redis.db.common": 0,
-        "redis.host": "gAAAAABYsy2id7Px67w1V5jaJgZ1LWJUnhK6Hp400YBzZSutABxiCejce2uRZXndXu5hzDhkIZ4gmPu63lPwL8MeS389nTIJ_fYXMfvH4iTlbr1D47AE74Y=",
-        "redis.password": "gAAAAABYsy2iHIwY0bR9wSaT_lrv8FvbuctlgG1tNbEB4LiNgh5Pqn8cFmyaYXjmem73Drp0xY2C4xRQt_og0FOx6tnJPc6BDw==",
-        "redis.port": "gAAAAABYsy2inASmRceV1Hf6hgdVgutPr1MLpD3WnSezeAVak3x5iUK4898OPGKTv19Lvgv25dtcC31jYF9QtFhYeJnxv5f2PA=="
+        "redis_db_common": 0,
+        "redis_host": "gAAAAABYs2DAXC2AMKIe38359Oq2aQs6lasZzSWieP63zaT5RmHARgeYyc6rQ_PARs0kaKPCPkRjZN-ZOkgzxhCuWp3sh01RCESCqe9RPWZSB-1d6BUeHNM=",
+        "redis_password": "gAAAAABYs2DAREKNfZAKUA2SyuF82SV7E4_Jh8NACBIKQ1duoI2ceGhVrBczDlEM0oM6yjKgablgsGk6jttGpDi5Fm9Mu1QXjQ==",
+        "redis_port": "gAAAAABYs2DAtYPVa65DHH-L1FAJlvoc95PNBKYwGdk6F0LANuX74Y_RrglvARB7tV_rUPl_ReeEdMgIP7lpCWnkWiNf54vuqg=="
     },
     "default": {
         "mode": "local"
     },
     "log": {
-        "file.size": 128,
-        "formatter": "[%%(levelname)s|%%(filename)s:%%(lineno)s] %%(asctime)s > %%(message)s",
+        "encoding": "utf-8",
+        "file_size": 128,
+        "formatter": "[%(levelname)s|%(filename)s:%(lineno)s] %(asctime)s > %(message)s",
         "path": "D:/DK/Version/Git/ZZiZiLY/Python/kiki/logs",
-        "prefix": "%%Y/%%m/%%d",
-        "suffix": "%%H%%M%%S"
+        "prefix": "%Y/%m/%d",
+        "suffix": "%H%M%S"
     },
     "slack": {
         "chcnnel": "#carpediem",
-        "token": "gAAAAABYsy2iQ_x2zDkx4-xq3T9HRyHROvJJk4Yqm0S7HqOB2kMokXdGEAZ2V98JDOUtdfVs-y0WxvcAjGLprbGiqcZNybao2qQLBPrnlWNMd9Ed0JinYoV6r3Ib1h5XFnzE9ujYVFUe",
+        "token": "gAAAAABYs2DAkTOd42_eKxlO1inm3ZB8PrBkgianAglC-GyBZb2xTxdqVmJQzTd3drUfbR0qEi1jXOv-h2h6vL_l6Z02927QLtPuPORMxZtuGw2JMAL6GL9DUiUGHuRjrmzZiQ38Sp37",
         "username": "carpediem"
     },
     "telegram": {
-        "chat_id": "gAAAAABYsy2i2SfTkMXBlm9FxUCMozdGUFk4cCdbkfNKDj0grsnR-yV1yLDZAb3XLT0whVryGwzFk7hHgasrWMxO839URvtwew==",
-        "token": "gAAAAABYsy2iQ_x2zDkx4-xq3T9HRyHROvJJk4Yqm0S7HqOB2kMokXdGEAZ2V98JDOUtdfVs-y0WxvcAjGLprbGiqcZNybao2qQLBPrnlWNMd9Ed0JinYoV6r3Ib1h5XFnzE9ujYVFUe"
+        "chat_id": "gAAAAABYs2DA8wTW7ob9Y_qzJPRkpfK5zslzx8W6Q5Ar-DQOfXb7n_oeyO4XMfbDlSV2Cu8pWPrE1iglKaPMI6OATpuhXgwwJw==",
+        "token": "gAAAAABYs2DAkTOd42_eKxlO1inm3ZB8PrBkgianAglC-GyBZb2xTxdqVmJQzTd3drUfbR0qEi1jXOv-h2h6vL_l6Z02927QLtPuPORMxZtuGw2JMAL6GL9DUiUGHuRjrmzZiQ38Sp37"
     }
 }

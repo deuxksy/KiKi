@@ -4,7 +4,6 @@ from setuptools import find_packages
 from setuptools import setup
 
 __version__ = (0, 0, 2)
-
 here = path.abspath(path.dirname(__file__))
 license = 'MIT'
 
