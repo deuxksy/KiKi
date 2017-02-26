@@ -1,5 +1,7 @@
 from configparser import ConfigParser
+
 import pymysql
+
 
 def get_config(file_path='config.ini'):
     parser = ConfigParser()
@@ -35,8 +37,9 @@ def get_default_config(file_path='config.ini', section=None):
     return config
 
 
-def get_db_config(file_path='config.ini', section='db', cursorclass=pymysql.cursors.DictCursor, port=33061, use_unicode=True):
-    config = get_default_config(file_path, section+'-oddsbox')
+def get_db_config(file_path='config.ini', section='db', cursorclass=pymysql.cursors.DictCursor, port=33061,
+                  use_unicode=True):
+    config = get_default_config(file_path, section + '-oddsbox')
     if port:
         config['port'] = port
     if cursorclass:
@@ -47,5 +50,5 @@ def get_db_config(file_path='config.ini', section='db', cursorclass=pymysql.curs
 
 
 def get_webdrive_config(file_path='config.ini', section='db'):
-    config = get_default_config(file_path, section+'-webdrive')
+    config = get_default_config(file_path, section + '-webdrive')
     return config

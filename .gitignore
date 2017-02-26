@@ -2,9 +2,12 @@
 /build/
 /dist/
 /*.egg-info/
+/.eggs/
 /log/
+/logs/
 __pycache__
 *.py[cd]
 *.log
-/resource/gen_config.py
-sh.exe.stackdump
+/kiki/config.*.py
+/kiki/make_config.py
+/sh.exe.stackdump

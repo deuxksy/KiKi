@@ -1,7 +1,10 @@
-from settings import redis_pool_common
-import redis
-import random
 import json
+import random
+
+import redis
+
+from kiki.settings import redis_pool_common
+
 
 def get_proxies():
     redis_common = redis.Redis(connection_pool=redis_pool_common)
@@ -13,8 +16,8 @@ def get_proxies():
     https = json.loads(proxy_https[random.randint(0, len(proxy_https) - 1)].decode('utf-8'))
     if http and https:
         return {
-            'http':'http://{}:{}'.format(http.get('ip'), http.get('port')),
-            'https':'http://{}:{}'.format(https.get('ip'), https.get('port')),
+            'http': 'http://{}:{}'.format(http.get('ip'), http.get('port')),
+            'https': 'http://{}:{}'.format(https.get('ip'), https.get('port')),
         }
     else:
         return None
