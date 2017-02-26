@@ -10,4 +10,5 @@ __pycache__
 *.log
 /kiki/config.*.py
 /kiki/make_config.py
+/kiki/resources/gen_config.py
 /sh.exe.stackdump
