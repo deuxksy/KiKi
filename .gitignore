@@ -7,7 +7,6 @@
 /logs/
 __pycache__
 *.py[cd]
-*.log
 /kiki/config.*.py
 /kiki/make_config.py
 /kiki/resources/gen_config.py

@@ -14,7 +14,7 @@ ZZiZiLY Commons API
 =========
 2개의 필수 환경설정 사전에 정의되 있어여만 사용이 가능함
 
-- ZZIZILY_KIKI_CONFIG
-    프로젝트에 필요한 ini 파일 위치
-- 암호화에 KEY 값 ZZIZILY_KIKI_CRYPTO
-    ZZIZILY_KIKI_CONFIG 에 암호화 처리 한 부분 또는 소스상에 암호화 한부분 암복화시
+- ZZIZILY_KIKI_MODE
+    local,dev,prod 3가지로 나눔 make_config.py 등 패포 및 프로그램 설정에서 사용
+- ZZIZILY_KIKI_CRYPTO 암복화 KEY 값
+    config.py 에 암복화 처리 또는 소스상에 암복화시
