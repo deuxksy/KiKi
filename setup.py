@@ -3,7 +3,7 @@ from os import path
 from setuptools import find_packages
 from setuptools import setup
 
-__version__ = (0, 0, 1)
+__version__ = (0, 0, 2)
 
 here = path.abspath(path.dirname(__file__))
 license = 'MIT'
@@ -51,6 +51,7 @@ setup(
         'requests',
         'slacker',
         'telepot',
+        'pip-review',
     ],
     # package 필요한 데이터 파일 Python 2.6 이하를 사용한다면 MANIFEST.in 포함 해야합니다.
     package_data={

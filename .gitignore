@@ -3,12 +3,10 @@
 /dist/
 /*.egg-info/
 /.eggs/
-/log/
 /logs/
 __pycache__
 *.py[cd]
-*.log
-/kiki/config.*.py
-/kiki/make_config.py
+/config/config.*.py
+/config/make_config.py
 /kiki/resources/gen_config.py
 /sh.exe.stackdump
