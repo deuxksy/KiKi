@@ -1,6 +1,6 @@
 from slacker import Slacker
 
-from kiki.settings import config
+from kiki.config import config
 
 
 def get_slack_bot(token=None):
