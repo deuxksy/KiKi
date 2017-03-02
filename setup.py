@@ -1,3 +1,4 @@
+#-*- coding: utf-8 -*-
 from os import path
 
 from setuptools import find_packages
@@ -25,16 +26,15 @@ setup(
     # https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         # 프로젝트 상태 (성숙도)
-        # 3 - Alpha
-        # 4 - Beta
-        # 5 - Stable
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 2 - Pre-Alpha',
         # 누구를 위한
         'Intended Audience :: Developers',
-        # 어떤것을 위한
-        'Topic :: Software Development :: Commons Library',
+        'Topic :: Software Development :: Libraries :: Python Modules',
         # 라이센스선택 (위의 license 와 동일해야 함)
         'License :: OSI Approved :: MIT License',
+        'Operating System :: Microsoft :: Windows',
+        'Operating System :: POSIX :: Linux',
+        'Operating System :: MacOS',
         'Natural Language :: Korean',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.5',

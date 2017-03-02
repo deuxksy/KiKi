@@ -1,0 +1,8 @@
+# 저작권 안내 포함
+include LICENSE.txt
+
+# data 파일 모두 포함
+recursive-include data *
+
+# Python 2.6 이하 사용시, package data 도 포함 해야 합니다. setup.py 에 선언 되어 야함.
+# include kiki/resources/*.ini

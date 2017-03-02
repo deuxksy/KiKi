@@ -1,3 +1,4 @@
+#-*- coding: utf-8 -*-
 """
 python package update 및 requirements.txt 만들기
 """
@@ -8,7 +9,7 @@ import pip
 
 # for dist in pip.get_installed_distributions():
 #     try:
-#         call('pip install --upgrade {app}'.format(app=dist.project_name))
+#         call('pip install --upgrade {app}'.format(app=dist.package_name))
 #     except Exception:
 #         print(traceback.format_exc())
 

@@ -1,9 +1,10 @@
+#-*- coding: utf-8 -*-
 config = {
     "db": {
         "redis_db_common": 0,
-        "redis_host": "gAAAAABYs2DAXC2AMKIe38359Oq2aQs6lasZzSWieP63zaT5RmHARgeYyc6rQ_PARs0kaKPCPkRjZN-ZOkgzxhCuWp3sh01RCESCqe9RPWZSB-1d6BUeHNM=",
-        "redis_password": "gAAAAABYs2DAREKNfZAKUA2SyuF82SV7E4_Jh8NACBIKQ1duoI2ceGhVrBczDlEM0oM6yjKgablgsGk6jttGpDi5Fm9Mu1QXjQ==",
-        "redis_port": "gAAAAABYs2DAtYPVa65DHH-L1FAJlvoc95PNBKYwGdk6F0LANuX74Y_RrglvARB7tV_rUPl_ReeEdMgIP7lpCWnkWiNf54vuqg=="
+        "redis_host": "gAAAAABYuAbL3ggpn2RMNTUt0Wcx7XS6bN80J28FxScZRYp1NMzTD5lCEHCT4dlNLjVvG-_LftRNzl3kb1_my1RyTlGEBd4ekyo1zyoKHhRhCBcU22Ex5jI=",
+        "redis_password": "gAAAAABYuAbLQEFOHf7zJrMP4OuaSJyGrmnHHSwzzv2S98AajJs46bmS0CFuqYH-nRobMO1rrgVl2VB8ZeD4OQIyEsrAYkcwmQ==",
+        "redis_port": "gAAAAABYuAbL4i1syTlAv2gVNvRNo2p6xeYbugyfTm6T1ygXxGCzIXLhai2AIsKT6vgRooBMBJa95hXQRdGtEIZ1CEAYAUA0kg=="
     },
     "default": {
         "mode": "local"
@@ -18,11 +19,11 @@ config = {
     },
     "slack": {
         "chcnnel": "#carpediem",
-        "token": "gAAAAABYs2DAkTOd42_eKxlO1inm3ZB8PrBkgianAglC-GyBZb2xTxdqVmJQzTd3drUfbR0qEi1jXOv-h2h6vL_l6Z02927QLtPuPORMxZtuGw2JMAL6GL9DUiUGHuRjrmzZiQ38Sp37",
+        "token": "gAAAAABYuAbLcFsdDvHqs6AVVRM8eGF79ISMT3CwyExs4MhzNzhtBb9EsTZOXBMOosLC3GUCMTlKtYzJx_JI_0x4eDxRfgLii5-G9nVHzO_SLk1byr2VZpzQfR2IjEwxeI3hPc7o1dyg",
         "username": "carpediem"
     },
     "telegram": {
-        "chat_id": "gAAAAABYs2DA8wTW7ob9Y_qzJPRkpfK5zslzx8W6Q5Ar-DQOfXb7n_oeyO4XMfbDlSV2Cu8pWPrE1iglKaPMI6OATpuhXgwwJw==",
-        "token": "gAAAAABYs2DAkTOd42_eKxlO1inm3ZB8PrBkgianAglC-GyBZb2xTxdqVmJQzTd3drUfbR0qEi1jXOv-h2h6vL_l6Z02927QLtPuPORMxZtuGw2JMAL6GL9DUiUGHuRjrmzZiQ38Sp37"
+        "chat_id": "gAAAAABYuAbL_pF8IRSMJqP9oCVQ1_QkiELKgdjCBRSxz8MdNUogaZCXHxlP2dlUm2fbyHWvClV0LhwVbyiksokgrCtb8zD2kg==",
+        "token": "gAAAAABYuAbLcFsdDvHqs6AVVRM8eGF79ISMT3CwyExs4MhzNzhtBb9EsTZOXBMOosLC3GUCMTlKtYzJx_JI_0x4eDxRfgLii5-G9nVHzO_SLk1byr2VZpzQfR2IjEwxeI3hPc7o1dyg"
     }
 }

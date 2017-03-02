@@ -1,3 +1,4 @@
+#-*- coding: utf-8 -*-
 import redis
 
 from kiki import crypto

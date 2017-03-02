@@ -1,3 +1,4 @@
+#-*- coding: utf-8 -*-
 from slacker import Slacker
 
 from kiki.config import config
