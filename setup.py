@@ -15,7 +15,7 @@ license = 'MIT'
 try:
     long_description = open(path.join(here, 'README.rst'), encoding='utf-8').read()
 except:
-    long_description = None
+    long_description = ''
 
 setup(
     name='kiki',
